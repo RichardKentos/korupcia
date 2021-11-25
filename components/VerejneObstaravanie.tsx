@@ -42,7 +42,7 @@ const VerejneObstaravanie = () => {
 {/* Princípy */}
 
             <h2 className="font-bold w-full text-5xl mt-20 mb-8 ">Čo musia obstaravátelia dodržať?</h2>
-            <div className="w-full bg-gray-100 rounded-md p-8 m-2 flex">
+            {/* <div className="w-full bg-gray-100 rounded-md p-8 m-2 flex">
                 <div className={show ? "w-1/2 bg-gray-200 rounded-md p-8 m-2" : "w-full bg-gray-200 rounded-md p-8 m-2" }>
                     <h3 className="text-5xl font-bold">1</h3>
                     <h3 className="text-2xl inline">Princíp rovnakého zaobchádzania</h3>
@@ -69,7 +69,7 @@ const VerejneObstaravanie = () => {
                 </div>
                 )}
                  </CSSTransition>
-            </div>
+            </div> */}
 
             <div className="w-1/2 bg-gray-100 rounded-md p-8 m-2">
                 <h3 className="text-5xl font-bold">2</h3>
