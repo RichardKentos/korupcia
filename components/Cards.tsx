@@ -12,7 +12,7 @@ const [ points, setPoints ] = useState(0)
         <Card points={points} handlePoints={setPoints} handleClick={setCurrentQuestion} question={questions[currentQuestion]}/>
         ) :
          (<>
-            <h1 className="text-center w-full font-semibold text-5xl my-4">Dosiahli ste <span className="text-red-500 font-bold text-7xl">{points} bodov</span></h1>
+            <h1 className="text-center w-full font-semibold text-5xl my-4">Dosiahli ste <span className={` ${points>9 && "text-red-500"}  ${points<10 && "text-green-500"} font-bold text-7xl`} >{points}</span> / 15 bodov</h1>
          </>)
          }
           

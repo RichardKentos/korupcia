@@ -4,6 +4,7 @@
      "name": "Martin",
      "avatar": "https://geeme.vercel.app/people/png/gee_me_035.png",
      "description": "Maťo je profesionálnym športovcom, beháva už odmalička. Tento rok sa bude konať finále Majstrovstiev Slovenska, no dopočul sa, že tam postúpil aj Peťo, o ktorom sa hovorí, že je jasný favorit na víťaza. Maťo tak začal rozmýšľať, ako by vedel svoje šance na výhru zvýšiť.",
+     "questionName": "Čo by mal spraviť?",
      "questions": [
       {
         "points": 1,
@@ -23,19 +24,20 @@
       "id": "2",
       "name": "Lucia",
       "avatar": "https://geeme.vercel.app/people/png/gee_me_032.png",
-      "description": "Lucia je speváčka a pred pár dňami sa dopočula o festivale, ktorý sa má konať tohto roku. Keď rozprávala s organizátorom, povedal jej, že pravdepodobne tam budú 'väčšie mená' ako ona a tým pádom sa tam nedostane. Ona mu však sľúbila, že ak ju pozve, bude tento festival promovať na Instagrame, kde má viac ako 10 000 followerov. Dopustila sa Lucia korupcie?",
+      "description": "Lucia je speváčka a pred pár dňami sa dopočula o festivale, ktorý sa má konať tohto roku. Keď rozprávala s organizátorom, povedal jej, že pravdepodobne tam budú 'väčšie mená' ako ona a tým pádom sa tam nedostane. Ona mu však sľúbila, že ak ju pozve, bude tento festival promovať na Instagrame, kde má viac ako 10 000 followerov.",
+      "questionName": "Dopustila sa Lucia korupcie?",
       "questions": [
        {
          "points": 1,
          "text": "Áno"
        },
        {
-         "points": 2,
+         "points": 3,
          "text": "Nie"
        },
        {
-         "points": 3,
-         "text": "Možno, ale určite nie vážnej"
+         "points": 2,
+         "text": "Možno, ale je to tolerovateľné"
        }
        ]
      },
@@ -43,19 +45,20 @@
       "id": "3",
       "name": "Laura",
       "avatar": "https://geeme.vercel.app/people/png/gee_me_009.png",
-      "description": "Laura je mamička a práve hľada pre svoju dcérku vhodnú škôlku. Našla veľmi vychytenú škôlku v centre, no od známych počula, že ak sa tam chce dostať, potrebuje podarovať škôlke 2000€. Veľmi sa jej to nepáči, no zároveň chce pre svoju dcéru to najlepšie. Poprosila vás o radu.",
+      "description": "Laura je mamička a práve hľada pre svoju dcérku vhodnú škôlku. Našla veľmi vychytenú škôlku v centre, no od známych počula, že ak sa tam chce dostať, potrebuje podarovať škôlke 2000€. Veľmi sa jej to nepáči, no zároveň chce pre svoju dcéru to najlepšie.",
+      "questionName": "Čo odporučís Laure?",
       "questions": [
        {
          "points": 1,
          "text": "Vyber inú škôlku"
        },
        {
-         "points": 2,
+         "points": 3,
          "text": "Zaplať 2000€"
        },
        {
-         "points": 3,
-         "text": "Choď do tej škôlky a hádaj sa s nimi"
+         "points": 2,
+         "text": "Choď do škôlky a zjednaj sumu na 1000€"
        }
        ]
      },
@@ -63,7 +66,8 @@
       "id": "4",
       "name": "Ivan",
       "avatar": "https://geeme.vercel.app/people/png/gee_me_083.png",
-      "description": "Ivan je na pozícií ministra dopravy. Onedlho sa plánuje stavba diaľnice a on má momentálne plné ruky práce. Jeho bývalý spolužiak Robo má stavebnú firmu a na ich minulom stretnutí povedal Ivanovi, že ak mu túto zakázku dohodí, postaví mu zadarmo garáž. Čo by mal Ivan spraviť?",
+      "description": "Ivan je na pozícií ministra dopravy. Onedlho sa plánuje stavba diaľnice a on má momentálne plné ruky práce. Jeho bývalý spolužiak Robo má stavebnú firmu a na ich minulom stretnutí povedal Ivanovi, že ak mu túto zakázku dohodí, postaví mu zadarmo garáž.",
+      "questionName": "Čo by mal Ivan spraviť?",
       "questions": [
        {
          "points": 3,
@@ -83,18 +87,19 @@
       "id": "5",
       "name": "Anna",
       "avatar": "https://geeme.vercel.app/people/png/gee_me_074.png",
-      "description": "Anna je dôchodkyňa a býva na dedine. Každý piatok tam príde obchodník s dodávkou s čerstvým pečivom. Keďže je pečivo výnimočné a veľmi obľúbené, často sa stane, že Anne už neostane žiadne, pretože býva až na konci ulice. So šoférom sa dohodla, že mu vždy ponúkne domáci koláčik, ak k nej príde ako prvej. Je to podľa vás korupcia?",
+      "description": "Anna je dôchodkyňa a býva na dedine. Každý piatok tam príde obchodník s dodávkou s čerstvým pečivom. Keďže je pečivo výnimočné a veľmi obľúbené, často sa stane, že Anne už neostane žiadne, pretože býva až na konci ulice. So šoférom sa dohodla, že mu vždy ponúkne domáci koláčik, ak k nej príde ako prvej.",
+      "questionName": "Jedná sa o korupciu?",
       "questions": [
        {
          "points": 1,
          "text": "Určite áno"
        },
        {
-         "points": 2,
+         "points": 3,
          "text": "Nie, jedná sa o vzájomné prospešný obchod"
        },
        {
-         "points": 3,
+         "points": 2,
          "text": "Nie, tak to na dedine chodí"
        }
        ]
