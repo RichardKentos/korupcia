@@ -22,16 +22,16 @@ const VerejneObstaravanie = () => {
         <div className="w-full flex justify-evenly my-8 flex-wrap">
             <h2 className="font-bold w-full text-5xl mt-20 mb-8">Koho môžeš kontrolovať?</h2>
 
-            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md ">
+            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md my-8">
                 <div onMouseEnter={showContent} className="w-full h-full flex justify-center items-center">
                     <img src="slovakia.svg" alt="Slovakia" />
                 </div>
                 <div className="w-full scale-y-0 transform origin-top transition duration-200 ease-out  bg-gray-100 text-center font-medium rounded-b-md">
-                    <h3  className="text-2xl ">Slovenská republika zastúpená svojimi orgánmi</h3>
+                    <h3  className="text-2xl">Slovenská republika zastúpená svojimi orgánmi</h3>
                 </div>
             </div>
 
-            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md ">
+            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md my-8">
                 <div onMouseEnter={showContent} className="w-full h-full flex justify-center items-center">
                     <img src="city.svg" alt="Obec" />
                 </div>
@@ -40,7 +40,7 @@ const VerejneObstaravanie = () => {
                 </div>
             </div>
 
-            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md ">
+            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md my-8">
                 <div onMouseEnter={showContent} className="w-full h-full flex justify-center items-center">
                     <img src="kraj.svg" alt="VÚC" />
                 </div>
@@ -49,7 +49,7 @@ const VerejneObstaravanie = () => {
                 </div>
             </div>
 
-            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md ">
+            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md my-8">
                 <div onMouseEnter={showContent} className="w-full h-full flex justify-center items-center">
                     <img src="human.svg" alt="Právnická osoba" />
                 </div>
@@ -58,7 +58,7 @@ const VerejneObstaravanie = () => {
                 </div>
             </div>
 
-            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md ">
+            <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md my-8">
                 <div onMouseEnter={showContent} className="w-full h-full flex justify-center items-center">
                 <img src="people.svg" alt="Právnická osoba" />
                 </div>
@@ -67,10 +67,10 @@ const VerejneObstaravanie = () => {
                 </div>
             </div>
         
-            <h2 className="font-bold w-full text-5xl mt-20 mb-8 ">Čo musia obstaravátelia dodržať?</h2>
+            <h2 className="font-bold w-full text-5xl mt-20 mb-8 ">Čo musia obstarávatelia dodržať?</h2>
             <div className="md:w-1/2 bg-gray-100 rounded-md p-8 m-2">
                 <h3 className="text-6xl font-bold text-center">1<span className="text-yellow-400 font-8xl">.</span></h3>
-                <h3 className="text-2xl text-center font-bold">Princíp nediskriminácia hospodárskych subjektov</h3>
+                <h3 className="text-2xl text-center font-bold">Princíp rovnakého zaobchádzania</h3>
                 <p className="mt-8 text-lg">znamená, že verejný obstarávateľ pristupuje rovnakým spôsobom voči všetkým uchádzačom a záujemcom. Pričom žiadneho z nich priamo, nepriamo, vedome, či nevedome nesmie zvýhodňovať alebo znevýhodňovať. Účelom je odstrániť akékoľvek subjektívne posudzovanie ponúk. </p>
             </div>
             <div className="md:w-1/2 bg-gray-100 rounded-md p-8 m-2">
