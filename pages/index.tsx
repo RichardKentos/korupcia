@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Cards  from "../components/Cards";
 import Sites from '../components/Sites';
 import Intro from '../components/Intro';
@@ -19,12 +18,12 @@ const Home: NextPage = ( {questions}: any) => {
                 <img src="https://komunita.zastavmekorupciu.sk/wp-content/themes/zastavmekorupciu/images/logo-zastavme-korupciu.png" alt="" />
     </a>
     <Intro />
-     <h2>Poraď ako sa zachovať v zlomových situáciách</h2>
+     <h2 className="font-bold w-full md:text-5xl text-3xl mt-20 md:mb-8">Poraď ako sa zachovať v zlomových situáciách</h2>
      <Cards questions={questions}></Cards>
      <VerejneObstaravanie />
      <Sites />
      
-     <footer className={styles.footer}>
+     <footer className='w-full text-center mt-8'>
        <a className="font-semibold text-3xl mt-8" href="https://komunita.zastavmekorupciu.sk/akademia/">Protikorupčná Akadémia</a>
       </footer>
     </div>

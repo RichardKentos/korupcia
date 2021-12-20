@@ -9,7 +9,7 @@ const Sites = () => {
     <div className="md:w-2/3 bg-white p-3 py-8 rounded-md flex justify-center flex-wrap">
       {/* <h2 className="font-bold w-full text-5xl my-4">Začni s kontrolou aj ty!</h2> */}
       <div className="md:w-4/5 bg-gray-100 p-8 rounded-md my-4">
-        <h3 className="text-center font-bold text-5xl my-4">Užitočné stránky</h3>
+        <h3 className="text-center font-bold md:text-5xl text-3xl my-4">Užitočné stránky</h3>
         <div className="md:w-2/3 mx-auto">
           <p className="bg-white text-lg rounded-md p-4">Keďže naším poslaním je takisto ukázať ľuďom konkrétne kroky pre <b>boj proti korupcii</b>, pripravili sme si takisto zoznam stránok, ktoré vám pri kontrole určite pomôžu. Ak si myslíte, že nám nejaká chýba, neváhajte nás kontaktovať a my zoznam updatneme.</p>
           {/* <img className="inline" src="hand.svg" alt="Hand" /> */}

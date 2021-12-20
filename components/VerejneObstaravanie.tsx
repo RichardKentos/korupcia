@@ -20,7 +20,7 @@ const VerejneObstaravanie = () => {
     
     return(
         <div className="w-full flex justify-evenly my-8 flex-wrap">
-            <h2 className="font-bold w-full text-5xl mt-20 mb-8">Koho môžeš kontrolovať?</h2>
+            <h2 className="font-bold w-full md:text-5xl text-3xl mt-20 mb-8">Koho môžeš kontrolovať?</h2>
 
             <div onMouseLeave={hideContent} className="md:w-1/6 bg-gray-100 relative rounded-md my-8">
                 <div onMouseEnter={showContent} className="w-full h-full flex justify-center items-center">
@@ -67,7 +67,7 @@ const VerejneObstaravanie = () => {
                 </div>
             </div>
         
-            <h2 className="font-bold w-full text-5xl mt-20 mb-8 ">Čo musia obstarávatelia dodržať?</h2>
+            <h2 className="font-bold w-full md:text-5xl text-3xl mt-20 mb-8 ">Čo musia obstarávatelia dodržať?</h2>
             <div className="md:w-1/2 bg-gray-100 rounded-md p-8 m-2">
                 <h3 className="text-6xl font-bold text-center">1<span className="text-yellow-400 font-8xl">.</span></h3>
                 <h3 className="text-2xl text-center font-bold">Princíp rovnakého zaobchádzania</h3>
@@ -75,7 +75,7 @@ const VerejneObstaravanie = () => {
             </div>
             <div className="md:w-1/2 bg-gray-100 rounded-md p-8 m-2">
                 <h3 className="text-6xl font-bold text-center">2<span className="text-yellow-400 font-8xl">.</span></h3>
-                <h3 className="text-2xl text-center font-bold">Princíp nediskriminácia hospodárskych subjektov</h3>
+                <h3 className="text-2xl text-center font-bold">Princíp nediskriminácie hospodárskych subjektov</h3>
                 <p className="mt-8 text-lg">tento princíp sa nám prekrýva s princípom rovnakého zaobchádzania, a znamená, že sa zakazuje akékoľvek zvýhodňovanie určitého uchádzača či záujemcu</p>
             </div>
             <div className="md:w-1/2 bg-gray-100 rounded-md p-8 m-2">
