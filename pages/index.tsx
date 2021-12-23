@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Cards  from "../components/Cards";
 import Sites from '../components/Sites';
 import Intro from '../components/Intro';
+import Team from '../components/Team';
 import VerejneObstaravanie from '../components/VerejneObstaravanie';
 
 const Home: NextPage = ( {questions}: any) => {  
@@ -14,24 +15,25 @@ const Home: NextPage = ( {questions}: any) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <a href="./">
+      <a rel="noreferrer" target="_blank" href="./">
                 <img src="https://komunita.zastavmekorupciu.sk/wp-content/themes/zastavmekorupciu/images/logo-zastavme-korupciu.png" alt="" />
     </a>
     <Intro />
+    <Team />
      <h2 className="font-bold w-full md:text-5xl text-3xl mt-20 md:mb-8">Poraď ako sa zachovať v zlomových situáciách</h2>
      <Cards questions={questions}></Cards>
      <VerejneObstaravanie />
      <Sites />
      
      <footer className='w-full text-center mt-8'>
-       <a className="font-semibold text-3xl mt-8" href="https://komunita.zastavmekorupciu.sk/akademia/">Protikorupčná Akadémia</a>
+       <a rel="noreferrer" target="_blank" className="font-semibold text-2xl mt-8" href="https://komunita.zastavmekorupciu.sk/akademia/">Protikorupčná Akadémia 2021</a>
       </footer>
     </div>
   )
 }
 
 export async function getStaticProps() {
-  const response = await fetch("https://jsonkeeper.com/b/QGBY");
+  const response = await fetch("https://jsonkeeper.com/b/KOAC");
   const questions = await response.json();
   return {
       props: {

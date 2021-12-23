@@ -7,7 +7,6 @@ const VerejneObstaravanie = () => {
     const showContent = (e: any) => {
           let content = e.target.nextSibling;
           let parent = e.target.parentNode;
-          console.log(parent);
           parent?.classList.add("rounded-b-none")
           content?.classList.add("scale-y-100");
         }

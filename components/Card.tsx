@@ -2,7 +2,7 @@
 import Button from "./Button"
 
 const Card = (props:any ) => {      
-
+    
 let questions = [props.question.questions[0], props.question.questions[1],props.question.questions[2]]
 const shuffledArray = questions.sort((a, b) => 0.5 - Math.random()); 
     return (
@@ -14,9 +14,10 @@ const shuffledArray = questions.sort((a, b) => 0.5 - Math.random());
                     <p className="w-full text-xl font-bold text-center">{props.question?.questionName}</p>
                     <div className="flex flex-wrap w-full justify-evenly my-4">
                         {shuffledArray.map( question => { 
-                            console.log(props.question.id);                                                        
                             return (
-                                <Button 
+                                <Button
+                                wrong={props.wrong}
+                                setWrong={props.setWrong} 
                                 points={question.points}  
                                 id={props.question.id} 
                                 handleClick={props.handleClick} 

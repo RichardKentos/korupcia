@@ -7,7 +7,7 @@
      "questionName": "Čo by mal spraviť?",
      "questions": [
       {
-        "points": 1,
+        "points": 3,
         "text": "Hrať viac"
       },
       {
@@ -15,10 +15,11 @@
         "text": "Dohodnúť sa s Peťom"
       },
       {
-        "points": 3,
+        "points": 1,
         "text": "Podplatiť rozhodcu"
       }
-      ]
+      ],
+      "explanation": "Podplácanie je zlé"
     },
     {
       "id": "2",
@@ -28,18 +29,20 @@
       "questionName": "Dopustila sa Lucia korupcie?",
       "questions": [
        {
-         "points": 1,
+         "points": 3,
          "text": "Áno"
        },
        {
-         "points": 3,
+         "points": 1,
          "text": "Nie"
        },
        {
          "points": 2,
          "text": "Možno, ale je to tolerovateľné"
        }
-       ]
+       ],
+       "explanation": "Dopustila sa určite a nie je to tolerovateľné"
+
      },
      {
       "id": "3",
@@ -49,18 +52,19 @@
       "questionName": "Čo odporučís Laure?",
       "questions": [
        {
-         "points": 1,
+         "points": 3,
          "text": "Vyber inú škôlku"
        },
        {
-         "points": 3,
+         "points": 1,
          "text": "Zaplať 2000€"
        },
        {
          "points": 2,
          "text": "Choď do škôlky a zjednaj sumu na 1000€"
        }
-       ]
+       ],
+       "explanation": "Podplácanie je zlé"
      },
      {
       "id": "4",
@@ -70,18 +74,19 @@
       "questionName": "Čo by mal Ivan spraviť?",
       "questions": [
        {
-         "points": 3,
+         "points": 1,
          "text": "Dať zakázku Robovi"
        },
        {
-         "points": 1,
+         "points": 3,
          "text": "Nahlásiť Roba na úrad verejného obstarávania"
        },
        {
          "points": 2,
-         "text": "Spraviť férové verejné obstarávanie"
+         "text": "Ignorovať"
        }
-       ]
+       ],
+       "explanation": "Férové jednanie musí byť"
      },
      {
       "id": "5",
@@ -91,17 +96,18 @@
       "questionName": "Jedná sa o korupciu?",
       "questions": [
        {
-         "points": 1,
+         "points": 3,
          "text": "Určite áno"
        },
        {
-         "points": 3,
+         "points": 1,
          "text": "Nie, jedná sa o vzájomné prospešný obchod"
        },
        {
          "points": 2,
          "text": "Nie, tak to na dedine chodí"
        }
-       ]
+       ],
+       "explanation": "Ani na dedine nie je korupcia tolerovateľná"
      }
   ]
