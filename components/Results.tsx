@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const Results = ({ points, setCurrentQuestion, setPoints,explanation,wrong, setWrong } : any ) => {
     
-console.log(explanation[2].explanation);
+console.log(explanation[2]);
 
     return (
         <div className="bg-gray-100 rounded-md md:w-2/3 mx-auto h-min shadow-md my-8 p-4 flex flex-wrap justify-evenly items-center ">
@@ -13,23 +13,29 @@ console.log(explanation[2].explanation);
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
                 <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/good.svg"></img>
+                <h3 className="w-full block text-center text-3xl font-bold">Protikorupčný bojovník</h3>
+                <p>Chválime ťa, zvládol si náš test s veľmi dobrými výsledkami.</p>
             </div>) : (points < 6 ? (<div className="w-full flex flex-wrap justify-evenly">
                 <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/bad.svg"></img>
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
+                <h3 className="w-full block text-center text-3xl font-bold">Gágaj</h3>
+                <p>Nuž, niektorí politici by mali z teba istotne radosť, no budúce generácie občanov SR určite nie. Pozri si nesprávne odpovede a skús to ešte raz.</p>
             </div>) : (<div className="w-full flex flex-wrap justify-evenly">
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
                 <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/medium.svg"></img>
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
+                <h3 className="w-full block text-center text-3xl font-bold">Pilný študent</h3>
+                <p>Si na správnej ceste, no máš pred sebou ešte mnoho učenia. Pozri si nesprávne odpovede a skús to ešte raz.</p>
             </div>)
             ) }
             </div>
-            {wrong && (<>
-                <h3 className="font-bold w-full md:text-2xl text-3xl mt-20 md:mb-8">Čo som mal zle?</h3>
+            {wrong.length > 0 && (<>
+                <h3 className="font-bold w-full md:text-2xl text-3xl mt-20 md:mb-8">Komu som poradil zle?</h3>
                 {wrong.map((oneWrong : string) => {
                     return (
                         <>
-                            <h3 className="text-lg text-red-500 w-full mt-8 font-bold">Otázka číslo {oneWrong}</h3>
+                            <h3 className="text-lg text-red-500 w-full mt-8 font-bold">{explanation[parseInt(oneWrong)-1]?.name}</h3>
                             <p className="text-lg w-full">{explanation[parseInt(oneWrong)-1]?.explanation}</p>
                         </>
                     )
