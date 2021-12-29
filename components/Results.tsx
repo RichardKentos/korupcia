@@ -10,17 +10,17 @@ console.log(explanation[2].explanation);
             <h1 className="text-center w-full font-semibold text-5xl my-4">Dosiahli ste <span className="block"><span className={` ${points>10 && "text-green-500"}  ${points<11 && "text-yellow-500"}  ${points<6 && "text-red-500"} font-bold text-7xl`} >{points}</span> / 15 bodov</span></h1>
             <div className="w-full">
             {points > 10 ? (<div className="w-full flex flex-wrap justify-evenly">
-                <img className="md:w-1/4 w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
-                <img className="md:w-1/4 w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
-                <img className="md:w-1/4 w-2/3 mt-8"  src="/good.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
+                <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/good.svg"></img>
             </div>) : (points < 6 ? (<div className="w-full flex flex-wrap justify-evenly">
-                <img className="md:w-1/4 w-2/3 mt-8"  src="/bad.svg"></img>
-                <img className="md:w-1/4 w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
-                <img className="md:w-1/4 w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
+                <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/bad.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
             </div>) : (<div className="w-full flex flex-wrap justify-evenly">
-                <img className="md:w-1/4 w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
-                <img className="md:w-1/4 w-2/3 mt-8"  src="/medium.svg"></img>
-                <img className="md:w-1/4 w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
+                <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/medium.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
             </div>)
             ) }
             </div>
@@ -29,7 +29,7 @@ console.log(explanation[2].explanation);
                 {wrong.map((oneWrong : string) => {
                     return (
                         <>
-                            <h3 className="text-lg w-full mt-8 font-medium">Otázka číslo {oneWrong}</h3>
+                            <h3 className="text-lg text-red-500 w-full mt-8 font-bold">Otázka číslo {oneWrong}</h3>
                             <p className="text-lg w-full">{explanation[parseInt(oneWrong)-1]?.explanation}</p>
                         </>
                     )
