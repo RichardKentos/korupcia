@@ -5,7 +5,7 @@ const Results = ({ points, setCurrentQuestion, setPoints,explanation,wrong, setW
     
     return (
         <div className="bg-gray-100 rounded-md md:w-2/3 mx-auto h-min shadow-md my-8 p-4 flex flex-wrap justify-evenly items-center ">
-            <h1 className="text-center w-full font-semibold text-5xl my-4">Dosiahli ste <span className="block"><span className={` ${points > 7 && "text-green-500"} ${points < 4 && "text-red-500"}  ${points < 8 && points > 3 && "text-yellow-500"} font-bold text-7xl`} >{points}</span> / 15 bodov</span></h1>
+            <h1 className="text-center w-full font-semibold text-5xl my-4">Dosiahli ste <span className="block"><span className={` ${points > 7 && "text-green-500"} ${points < 4 && "text-red-500"}  ${points < 8 && points > 3 && "text-yellow-500"} font-bold text-7xl`} >{points}</span> / 10 bodov</span></h1>
             <div className="w-full">
             {points > 7 ? (<div className="w-full flex flex-wrap justify-evenly">
                 <img className="md:w-1/4 md:block hidden w-2/3 my-8 opacity-20"  src="/bad.svg"></img>
