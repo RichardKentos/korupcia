@@ -7,15 +7,15 @@
      "questionName": "Čo by mal spraviť?",
      "questions": [
       {
-        "points": 3,
+        "points": 2,
         "text": "Viac behať"
       },
       {
-        "points": 1,
+        "points": 0,
         "text": "Dohodnúť sa s Peťom"
       },
       {
-        "points": 1,
+        "points": 0,
         "text": "Podplatiť rozhodcu"
       }
       ],
@@ -29,11 +29,11 @@
       "questionName": "Dopustila sa Lucia korupcie?",
       "questions": [
        {
-         "points": 3,
+         "points": 2,
          "text": "Áno"
        },
        {
-         "points": 1,
+         "points": 0,
          "text": "Nie"
        },
        {
@@ -52,15 +52,15 @@
       "questionName": "Čo odporučís Laure?",
       "questions": [
        {
-         "points": 3,
+         "points": 2,
          "text": "Vyber inú škôlku"
        },
        {
-         "points": 1,
+         "points": 0,
          "text": "Zaplať 2000€"
        },
        {
-         "points": 1,
+         "points": 0,
          "text": "Choď do škôlky a zjednaj sumu na 1000€"
        }
        ],
@@ -74,15 +74,15 @@
       "questionName": "Čo by mal Ivan spraviť?",
       "questions": [
        {
-         "points": 1,
+         "points": 0,
          "text": "Dať zakázku Robovi"
        },
        {
-         "points": 3,
+         "points": 2,
          "text": "Nahlásiť Roba na úrad verejného obstarávania"
        },
        {
-         "points": 2,
+         "points": 1,
          "text": "Ignorovať"
        }
        ],
@@ -96,15 +96,15 @@
       "questionName": "Jedná sa o korupciu?",
       "questions": [
        {
-         "points": 3,
+         "points": 2,
          "text": "Určite áno"
        },
        {
-         "points": 1,
+         "points": 0,
          "text": "Nie, jedná sa o vzájomné prospešný obchod"
        },
        {
-         "points": 1,
+         "points": 0,
          "text": "Nie, tak to na dedine chodí"
        }
        ],
