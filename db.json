@@ -8,7 +8,7 @@
      "questions": [
       {
         "points": 3,
-        "text": "Hrať viac"
+        "text": "Viac behať"
       },
       {
         "points": 2,
@@ -19,7 +19,7 @@
         "text": "Podplatiť rozhodcu"
       }
       ],
-      "explanation": "Podplácanie je zlé"
+      "explanation": "V tomto prípade bola správna odpoveď “viac” hrať. A to práve z toho dôvodu, že akákoľvek nespravodlivá manipulácia s výsledkami sa dá považovať za korupciu a taktiež podplácanie je korupciou."
     },
     {
       "id": "2",
@@ -41,7 +41,7 @@
          "text": "Možno, ale je to tolerovateľné"
        }
        ],
-       "explanation": "Dopustila sa určite a nie je to tolerovateľné"
+       "explanation": "V tomto prípade sa konanie Lucie považuje za korupciu nakoľko chcela ovplyvňovať organizátorove rozhodnutie určitým protiplnením."
 
      },
      {
@@ -64,7 +64,7 @@
          "text": "Choď do škôlky a zjednaj sumu na 1000€"
        }
        ],
-       "explanation": "Podplácanie je zlé"
+       "explanation": "Správnou odpoveďou je vybrať si inú škôlku. Nakoľko ide o úplatok, ktorý keby sa poskytol išlo by o korupciu. Laura môže však nahlásiť toto správanie Úradu na ochranu oznamovateľov."
      },
      {
       "id": "4",
@@ -86,7 +86,7 @@
          "text": "Ignorovať"
        }
        ],
-       "explanation": "Férové jednanie musí byť"
+       "explanation": "Ivan by mal nahlásiť Roba, nakoľko ide o snahu manipulovať s verejným obstarávaním, čo je aj trestným činom."
      },
      {
       "id": "5",
@@ -108,6 +108,6 @@
          "text": "Nie, tak to na dedine chodí"
        }
        ],
-       "explanation": "Ani na dedine nie je korupcia tolerovateľná"
+       "explanation": "Anna má aj iné možnosti ako “podplatiť si” obchodníka. A to napríklad ísť na začiatok ulice a kúpiť si pečivo tam. Keďže aj ponuka iného plnenia ako peňažného je korupcia."
      }
   ]

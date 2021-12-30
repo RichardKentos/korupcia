@@ -19,7 +19,7 @@ const Home: NextPage = ( {questions}: any) => {
                 <img src="https://komunita.zastavmekorupciu.sk/wp-content/themes/zastavmekorupciu/images/logo-zastavme-korupciu.png" alt="" />
     </a>
     <Intro />
-    <Team />
+
      <h2 className="font-bold w-full md:text-5xl text-3xl mt-20 md:mb-8">Poraď ako sa zachovať v zlomových situáciách</h2>
      <Cards questions={questions}></Cards>
      <VerejneObstaravanie />
@@ -33,7 +33,7 @@ const Home: NextPage = ( {questions}: any) => {
 }
 
 export async function getStaticProps() {
-  const response = await fetch("https://jsonkeeper.com/b/KOAC");
+  const response = await fetch("https://jsonkeeper.com/b/CDXM");
   const questions = await response.json();
   return {
       props: {
