@@ -19,7 +19,7 @@ console.log(explanation[2]);
                 <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/bad.svg"></img>
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
-                <h3 className="w-full block text-center text-3xl font-bold">Gágaj</h3>
+                <h3 className="w-full block text-center text-3xl font-bold">&quot;Náš človek&quot;</h3>
                 <p>Nuž, niektorí politici by mali z teba istotne radosť, no budúce generácie občanov SR určite nie. Pozri si nesprávne odpovede a skús to ešte raz.</p>
             </div>) : (<div className="w-full flex flex-wrap justify-evenly">
                 <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
