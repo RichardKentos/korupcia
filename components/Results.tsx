@@ -8,21 +8,21 @@ const Results = ({ points, setCurrentQuestion, setPoints,explanation,wrong, setW
             <h1 className="text-center w-full font-semibold text-5xl my-4">Dosiahli ste <span className="block"><span className={` ${points > 7 && "text-green-500"} ${points < 4 && "text-red-500"}  ${points < 8 && points > 3 && "text-yellow-500"} font-bold text-7xl`} >{points}</span> / 15 bodov</span></h1>
             <div className="w-full">
             {points > 7 ? (<div className="w-full flex flex-wrap justify-evenly">
-                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
-                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
-                <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/good.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 my-8 opacity-20"  src="/bad.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 my-8 opacity-20"  src="/medium.svg"></img>
+                <img className="md:w-1/4 md:block w-2/3 my-8"  src="/good.svg"></img>
                 <h3 className="w-full block text-center text-3xl font-bold">Protikorupčný bojovník</h3>
                 <p>Chválime ťa, zvládol si náš test s veľmi dobrými výsledkami.</p>
             </div>) : (points < 4 ? (<div className="w-full flex flex-wrap justify-evenly">
-                <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/bad.svg"></img>
-                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/medium.svg"></img>
-                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
+                <img className="md:w-1/4 md:block w-2/3 my-8"  src="/bad.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 my-8 opacity-20"  src="/medium.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 my-8 opacity-20"  src="/good.svg"></img>
                 <h3 className="w-full block text-center text-3xl font-bold">&quot;Náš človek&quot;</h3>
                 <p>Nuž, niektorí politici by mali z teba istotne radosť, no budúce generácie občanov SR určite nie. Pozri si nesprávne odpovede a skús to ešte raz.</p>
             </div>) : (<div className="w-full flex flex-wrap justify-evenly">
-                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/bad.svg"></img>
-                <img className="md:w-1/4 md:block w-2/3 mt-8"  src="/medium.svg"></img>
-                <img className="md:w-1/4 md:block hidden w-2/3 mt-8 opacity-20"  src="/good.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 my-8 opacity-20"  src="/bad.svg"></img>
+                <img className="md:w-1/4 md:block w-2/3 my-8"  src="/medium.svg"></img>
+                <img className="md:w-1/4 md:block hidden w-2/3 my-8 opacity-20"  src="/good.svg"></img>
                 <h3 className="w-full block text-center text-3xl font-bold">Pilný študent</h3>
                 <p>Si na správnej ceste, no máš pred sebou ešte mnoho učenia. Pozri si nesprávne odpovede a skús to ešte raz.</p>
             </div>)
