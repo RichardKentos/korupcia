@@ -36,7 +36,7 @@ const Home: NextPage = ( {questions}: any) => {
 }
 
 export async function getStaticProps() {
-  const response = await fetch("https://jsonkeeper.com/b/9ZOY");
+  const response = await fetch("https://jsonkeeper.com/b/DF0L");
   const questions = await response.json();
   return {
       props: {
