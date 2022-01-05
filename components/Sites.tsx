@@ -4,13 +4,13 @@ import Hand from "../public/hand.svg"
 const Sites = () => {    
     return(
       <>
-      <h3 className="font-bold md:text-5xl text-3xl my-4 w-full">Užitočné stránky</h3>
+      <h3 className="font-bold md:text-5xl text-3xl my-4 w-full text-center">Užitočné stránky</h3>
     <div className="md:w-2/3 bg-white p-3 py-8 rounded-md flex justify-center flex-wrap">
       {/* <h2 className="font-bold w-full text-5xl my-4">Začni s kontrolou aj ty!</h2> */}
       <div className="md:w-4/5 bg-gray-100 p-8 rounded-md my-4">
         
         <div className="w-full mx-auto mt-8 mb-12">
-          <p className="bg-white text-lg rounded-md p-4">Keďže naším poslaním je ukázať ľuďom konkrétne kroky pre <b>boj proti korupcii</b>, pripravili sme si tento zoznam stránok, ktoré vám pri kontrole určite pomôžu. Ak si myslíte, že nám nejaká chýba, neváhajte nás kontaktovať a my zoznam updatneme.</p>
+          <p className="bg-white text-lg rounded-md p-4">Keďže naším poslaním je ukázať ľuďom konkrétne kroky pre <b>boj proti korupcii</b>, pripravili sme si pre vás tento zoznam stránok, ktoré vám pri kontrole určite pomôžu. Ak si myslíte, že nám nejaká chýba, neváhajte nás kontaktovať a my zoznam updatneme.</p>
           {/* <img className="inline" src="hand.svg" alt="Hand" /> */}
         </div>
       
@@ -40,7 +40,7 @@ const Sites = () => {
         <img className="inline" src="hand.svg" alt="Hand" />
           <a className="text-2xl inline font-bold underline" rel="noreferrer" target="_blank" href="https://www.chcemvediet.sk/sk/">Podávanie infožiadostí</a>
           <p className="my-4 text-lg self-end">
-          Možnosť podať infožiadosť nám zabezpečuje zákon č. 211/2000 Z.z. o slobodnom prístupe k informáciám a o zmene a doplnení niektorých zákonov (tzv. infozákon), ktorý nám hovorí, že každý má právo na prístup k informáciám, ktoré majú povinné osoby k dispozícii. Povinnými osobami rozumieme najmä, ale nie len štátne orgány (ministerstvá), obce, vyššie územné celky (samosprávne kraje). Tieto informácie sa sprístupňujú bez preukázania právneho alebo iného dôvodu. Preto, ak ťa niečo zaujíma možno ohľadom tvojej obce, môžeš ju písomne ale aj ústne požiadať o túto informáciu a odvolať sa na infozákon. 
+          Možnosť podať infožiadosť nám zabezpečuje zákon č. 211/2000 Z.z. o slobodnom prístupe k informáciám a o zmene a doplnení niektorých zákonov (tzv. infozákon), ktorý nám hovorí, že každý má právo na prístup k informáciám, ktoré majú povinné osoby k dispozícii. Povinnými osobami rozumieme najmä, ale nie len štátne orgány (ministerstvá), obce, vyššie územné celky (samosprávne kraje). Tieto informácie sa sprístupňujú bez preukázania právneho alebo iného dôvodu. Preto, ak ťa zaujíma niečo ohľadom tvojej obce, môžeš ju písomne ale aj ústne požiadať o túto informáciu a odvolať sa na infozákon.
           </p>
         </div>
         <div className="my-4">
@@ -72,11 +72,6 @@ const Sites = () => {
           </p>
         </div>
       </div>
-      {/* <div className="w-2/3 bg-yellow-300 p-4 rounded-md my-4">
-        <h3 className="text-center font-bold text-5xl my-4">Ako googliť šikovne?</h3>
-        <h4 className="text-2xl font-semibold">Používajte ""</h4>
-        <p>Pomocou tohto triku </p>
-      </div> */}
      </div>
      </>
     )

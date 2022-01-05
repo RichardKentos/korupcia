@@ -19,29 +19,29 @@
         "text": "Podplatiť rozhodcu"
       }
       ],
-      "explanation": "V tomto prípade bola správna odpoveď “viac” hrať. A to práve z toho dôvodu, že akákoľvek nespravodlivá manipulácia s výsledkami sa dá považovať za korupciu a taktiež podplácanie je korupciou."
+      "explanation": "V tomto prípade bola správna odpoveď „viac behať”. A to práve z toho dôvodu, že akákoľvek nespravodlivá manipulácia s výsledkami sa dá považovať za korupciu a taktiež podplácanie je korupciou."
     },
     {
       "id": "2",
       "name": "Lucia",
       "avatar": "https://geeme.vercel.app/people/png/gee_me_032.png",
-      "description": "Lucia je speváčka a pred pár dňami sa dopočula o festivale, ktorý sa má konať tohto roku. Keď rozprávala s organizátorom, povedal jej, že pravdepodobne tam budú 'väčšie mená' ako ona a tým pádom sa tam nedostane. Ona mu však sľúbila, že ak ju pozve, bude tento festival promovať na Instagrame, kde má viac ako 10 000 followerov.",
-      "questionName": "Dopustila sa Lucia korupcie?",
+      "description": "Lucia je speváčka a pred pár dňami sa dopočula o festivale, ktorý sa má konať tento rok. Keď sa rozprávala s organizátorom, povedal jej, že pravdepodobne tam budú 'väčšie mená' ako ona a tým pádom sa tam nedostane. Ona mu však sľúbila, že ak ju pozve, bude tento festival propagovať na Instagrame, kde má viac ako 10 000 followerov.",
+      "questionName": "Ako by mal reagovať organizátor?",
       "questions": [
        {
          "points": 2,
-         "text": "Áno"
+         "text": "Slušne odmietnuť a ostať v kontakte"
        },
        {
          "points": 0,
-         "text": "Nie"
+         "text": "Povedať, že on berie len cash"
        },
        {
          "points": 1,
-         "text": "Možno, ale je to tolerovateľné"
+         "text": "Prijať ponuku s promom na Instagrame"
        }
        ],
-       "explanation": "V tomto prípade sa konanie Lucie považuje za korupciu nakoľko chcela ovplyvňovať organizátorove rozhodnutie určitým protiplnením."
+       "explanation": "V tomto prípade sa konanie Lucie považuje za korupciu, nakoľko chcela ovplyvňovať organizátorove rozhodnutie určitým protiplnením."
 
      },
      {
@@ -52,7 +52,7 @@
       "questionName": "Čo odporučís Laure?",
       "questions": [
        {
-         "points": 2,
+         "points": 1,
          "text": "Vyber inú škôlku"
        },
        {
@@ -60,8 +60,8 @@
          "text": "Zaplať 2000€"
        },
        {
-         "points": 0,
-         "text": "Choď do škôlky a zjednaj sumu na 1000€"
+         "points": 2,
+         "text": "Nahlásiť na kontrolný úrad"
        }
        ],
        "explanation": "Správnou odpoveďou je vybrať si inú škôlku. Nakoľko ide o úplatok, ktorý keby sa poskytol išlo by o korupciu. Laura môže však nahlásiť toto správanie Úradu na ochranu oznamovateľov."
@@ -93,19 +93,19 @@
       "name": "Anna",
       "avatar": "https://geeme.vercel.app/people/png/gee_me_074.png",
       "description": "Anna je dôchodkyňa a býva na dedine. Každý piatok tam príde obchodník s dodávkou s čerstvým pečivom. Keďže je pečivo výnimočné a veľmi obľúbené, často sa stane, že Anne už neostane žiadne, pretože býva až na konci ulice. So šoférom sa dohodla, že mu vždy ponúkne domáci koláčik, ak k nej príde ako prvej.",
-      "questionName": "Jedná sa o korupciu?",
+      "questionName": "Aké iné možnosti má podľa teba Anna?",
       "questions": [
        {
          "points": 2,
-         "text": "Určite áno"
+         "text": "Privstať si"
        },
        {
          "points": 0,
-         "text": "Nie, jedná sa o vzájomné prospešný obchod"
+         "text": "Dať chlapcovi od vedľa 2€, nech kúpi aj jej"
        },
        {
-         "points": 0,
-         "text": "Nie, tak to na dedine chodí"
+         "points": 1,
+         "text": "Poprosiť šoféra, aby prišiel najskôr za ňou"
        }
        ],
        "explanation": "Anna má aj iné možnosti ako “podplatiť si” obchodníka. A to napríklad ísť na začiatok ulice a kúpiť si pečivo tam. Keďže aj ponuka iného plnenia ako peňažného je korupcia."

@@ -5,6 +5,11 @@ import "../styles/Intro.css"
 
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  if (typeof window !== 'undefined') {
+    return <Component {...pageProps} />
+  }
+  else {
+    return null
+  }
 }
 export default MyApp

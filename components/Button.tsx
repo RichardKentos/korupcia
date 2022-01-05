@@ -15,7 +15,7 @@ const Button = (props: Button) => {
             <a onClick={(e) => {
                 props.handleClick(props.id)
                 props.handlePoints(props.currentPoints+props.points)                
-                if (props.points < 3) {
+                if (props.points < 2) {
                     props.wrong.push(props.id)
                 }
             } }
