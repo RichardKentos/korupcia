@@ -41,7 +41,7 @@
          "text": "Prijať ponuku s propagáciou na Instagrame"
        }
        ],
-       "explanation": "V tomto prípade sa konanie Lucie považuje za korupciu, nakoľko chcela ovplyvňovať organizátorove rozhodnutie určitým protiplnením."
+       "explanation": "Správna rada pre organizátora je slušne odmietnuť túto ponuku, nakoľko, keby si vypýtal cash už by išlo o úplatok. V prípade, ak by prijal ponuku s propagovaním na Instagrame, nešlo by úplne o etické konanie."
 
      },
      {
@@ -92,8 +92,8 @@
       "id": "5",
       "name": "Anna",
       "avatar": "https://geeme.vercel.app/people/png/gee_me_074.png",
-      "description": "Anna je dôchodkyňa a býva na dedine. Každý piatok tam príde obchodník s dodávkou s čerstvým pečivom. Keďže je pečivo výnimočné a veľmi obľúbené, často sa stane, že Anne už neostane žiadne, pretože býva až na konci ulice. So šoférom sa dohodla, že mu vždy ponúkne domáci koláčik, ak k nej príde ako prvej.",
-      "questionName": "Aké iné možnosti má podľa teba Anna?",
+      "description": "Anna je dôchodkyňa a býva na dedine. Každý piatok tam príde obchodník s dodávkou s čerstvým pečivom. Keďže je pečivo výnimočné a veľmi obľúbené, často sa stane, že Anne už neostane žiadne, pretože býva až na konci ulice. Rozmýšľa preto, ako tento problém vyriešiť.",
+      "questionName": "Aké možnosti má podľa teba Anna?",
       "questions": [
        {
          "points": 2,
@@ -101,13 +101,13 @@
        },
        {
          "points": 0,
-         "text": "Dať chlapcovi od vedľa 2€, nech kúpi aj jej"
+         "text": "Dať šoférovi koláčik, ak k nej príde ako prvej"
        },
        {
          "points": 1,
          "text": "Poprosiť šoféra, aby prišiel najskôr za ňou"
        }
        ],
-       "explanation": "Anna má aj iné možnosti ako “podplatiť si” obchodníka. A to napríklad ísť na začiatok ulice a kúpiť si pečivo tam. Keďže aj ponuka iného plnenia ako peňažného je korupcia."
+       "explanation": "Anna má aj iné možnosti ako “podplatiť si” obchodníka. A to napríklad privstať si a ísť na začiatok ulice. Keďže aj ponuka iného plnenia ako peňažného je korupcia."
      }
   ]
